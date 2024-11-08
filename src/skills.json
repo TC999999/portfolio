@@ -1,0 +1,188 @@
+{
+  "frontEndTechnicalSkills": [
+    {
+      "id": "FETS-1",
+      "skillName": "React",
+      "description": "I understand how to build components for user interaction. I can save data from servers using useState as well as using context to save a state for use for the entire app. I can handle forms and use custom APIs to create data from the user-end to send to a server and retrieve data from a server to show to users. I also know how to use the router-dom to show different pages based on the current URL route.",
+      "icon": "/react.svg"
+    },
+    {
+      "id": "FETS-2",
+      "skillName": "CSS",
+      "description": "I know how to style apps as per the requirements given to me. I understand the @media selector to change certain elements based on screen width and can make animations for smaller components.",
+      "icon": "/file-type-css.svg"
+    },
+    {
+      "id": "FETS-3",
+      "skillName": "HTML",
+      "description": "I understand how webpages are build and can use browser debugging tools to see what is being sent to the front-end from the back-end. I can also use various coding language tools like React with JavaScript or Jinja with Python to display back-end information to the front-end.",
+      "icon": "/file-type-html.svg"
+    },
+    {
+      "id": "FETS-4",
+      "skillName": "Material-UI",
+      "description": "I can build components easily with this library. I can make scrollable tabs, forms, and menus that change into navbar links at larger screen widths.",
+      "icon": "/material-ui.svg"
+    },
+    {
+      "id": "FETS-5",
+      "skillName": "Bootstrap",
+      "description": "I can style components easily with this library as well. I know how to style fonts, make grids to keep containers centered on the screen, and how to make controlled forms.",
+      "icon": "/bootstrap.svg"
+    },
+    {
+      "id": "FETS-6",
+      "skillName": "Vite",
+      "description": "I can build front-end apps with Vite that bundles React and Javascript together automatically. Makes building apps much more efficient and quick.",
+      "icon": "/vite.svg"
+    }
+  ],
+  "backEndTechnicalSkills": [
+    {
+      "id": "BETS-1",
+      "skillName": "PostgreSQL",
+      "description": "I can insert, retrieve, update, and delete data into local databases using the pg library and cloud service databases like Supabase and Oracle. I am able to create tables that utilize one-to-one relationships and many-to-many relationships that can easily be used to reference data from other tables. I am able to use the bcrypt library from Node.js to encrypt sensitive user information in the database decrypt when the user logs in.",
+      "icon": "/postgresql.svg"
+    },
+    {
+      "id": "BETS-2",
+      "skillName": "SQL",
+      "description": "I can understand the SQL querying language easily and even write my own queries that retrieves data in the exact order and groups that I want. I can even use SQL to sort data without the need to use algorithms by recording user activity onto the database.",
+      "icon": "/sql-database-generic.svg"
+    },
+    {
+      "id": "BETS-3",
+      "skillName": "Express.js",
+      "description": "I can create servers and connect to both local and cloud-based databases with JavaScript. I can also use express to make APIs to handle data based on different routes. Using encryption libraries like bcrypt, I can keep sensitive user information, such as users' passwords, safe on a database. I also know how to create web tokens so the browser can recognize if a user can access certain information.",
+      "icon": "/express.svg"
+    },
+    {
+      "id": "BETS-4",
+      "skillName": "Flask",
+      "description": "I can create servers and connect to both local and cloud-based databases with Python and the psycopg2-binary library. I can create an API with Flask to create and retrieve data. I can also use SQLAlchemy to connect to a database and create a model for how information should be stored. I can also render HTML templates using Jinja and add user information to the front end.",
+      "icon": "/flask.svg"
+    },
+    {
+      "id": "BETS-5",
+      "skillName": "Supabase",
+      "description": "Supabase is a cloud database management system that uses PostgreSQL language and is similar to Oracle. I know how to seed local PostgreSQL databases into Supabase, as well as send user submitted data to the database when deployed in production mode. Additionally, I know how to store image files on Supabase for when the user submits a file through their form.",
+      "icon": "/supabase.svg"
+    },
+    {
+      "id": "BETS-6",
+      "skillName": "Authentication and Web Tokens",
+      "description": "I am able to use the bcrypt library from Node.js to hash sensitive user information in the database and compare the hashed password to the password the user inpits when they log in. Furthermore, I can save a user's username, password, and any other important information as a json webtoken in local storage to keep the user logged in if they refresh the page."
+    }
+  ],
+  "fullStackTechnicalSkills": [
+    {
+      "id": "FSTS-1",
+      "skillName": "Node.js",
+      "description": "Familiar with downloading libraries and packages for both front-end and back-end use. My favorite libraries to use include moment.js, email-validator, jsonwebtoken, bcrypt, and axios.",
+      "icon": "/nodejs.svg"
+    },
+    {
+      "id": "FSTS-2",
+      "skillName": "JavaScript",
+      "description": "I can use Javascript to manipulate the front-end DOM of an app and create a server using Node.js and express.js. I also understand both for loops and while loops, setInterval, and callback functions.",
+      "icon": "/javascript-js.svg"
+    },
+    {
+      "id": "FSTS-3",
+      "skillName": "Python",
+      "description": "I can use Jinja to manipulate the front-end of an app using information from the server. I understand Python data structures such as dictionaries, sets, and tuples. I also know how to make a virtual environment with Python in order to use external libraries and packages.",
+      "icon": "/python.svg"
+    },
+    {
+      "id": "FSTS-4",
+      "skillName": "GitHub",
+      "description": "I understand how to commit changes I made to my code. I also know how to  make both push requests to add my changes to the main branch of a repository that I made and pull requests to suggest changes that I made to cloned repository someone else made from GitHub. I also know how to create and switch between different branches as well as merge them together.",
+      "icon": "/github.svg"
+    },
+    {
+      "id": "FSTS-5",
+      "skillName": "JSON Schema",
+      "description": "I know how to use the jsonschema library from Node.js in order to ensure that users submitted data correctly and I intended them to do. For example, I can use jsonschema to ensure that passwords match a certain length or that emails are typed in the email format."
+    }
+  ],
+  "otherTechnicalSkills": [
+    {
+      "id": "OTS-1",
+      "skillName": "Sorting Algorithms",
+      "description": "I know how to implement bubble sort, insertion sort, merge sort, radix sort, and counting sort."
+    },
+    {
+      "id": "OTS-2",
+      "skillName": "Code Testing",
+      "description": "I am familiar with various testing software such as Jasmine, Jest, and Supertest. Using supertest, I can test server routes and requests to ensure that they are working as they should. I am able to write tests ahead of writing the code itself. I can also do front-end tests to ensure the page is rendering properly."
+    },
+    {
+      "id": "OTS-3",
+      "skillName": "Code Review",
+      "description": "I can talk about the code I wrote, how I implemented certain features, and why I decided to do it thay way in front of another person without digression. I prepare ahead of time what I plane to say so that anyone less knowledgeable about technology can understand what I am doing and why I am doing it."
+    },
+    {
+      "id": "OTS-4",
+      "skillName": "Git",
+      "description": "I understand how to commit changes I made to my code. I also know how to  make both push requests to add my changes to the main branch of a repository that I made and pull requests to suggest changes that I made to cloned repository someone else made from GitHub. I also know how to create and switch between different branches as well as merge them together."
+    },
+    {
+      "id": "OTS-5",
+      "skillName": "Linked Lists",
+      "description": "I understand how to make a singly linked list where each node in the list only knows the next item in the list. I also understand how to make a doubly linked list, where each node in the list knows both the next item in the list and the previous item. I know how to traverse, add values, and remove values from both data structures with the best time complexity. I even know how to reverse a linked list in place. I can also used a linked list to solve the Jospehus Survivor alogorithm."
+    },
+    {
+      "id": "OTS-6",
+      "skillName": "Queues",
+      "description": "I know the difference between this and stacks and how I should add and remove data from this structure. I can use queues to line up user data in order of when they first submitted their inputs. For example, if multiple users were to submit a form, I would be able to organize them in the order of which they were submitted by adding each item to the end and then remove the first item when required. I can also implement a double-sided queue where each node knows both nodes before and after it to more easily implement techniques like removing or reversing a queue."
+    },
+    {
+      "id": "OTS-7",
+      "skillName": "Stacks",
+      "description": "I know the difference between this and queues and how I should add and remove data from this structure. For example, I would be able to organize data in the order they were submitted by adding the to the beginning of the stack, then remove the first item when needed"
+    },
+
+    {
+      "id": "OTS-8",
+      "skillName": "Binary Search Trees",
+      "description": "I know how to insert nodes into a binary search tree, search for nodes with a specific value with both depth-first search and breadth-first search, and remove a node without disrupting the flow of the tree."
+    },
+    {
+      "id": "OTS-9",
+      "skillName": "Graphs",
+      "description": "I know how to create a graph class that can link certain nodes of data together to show their connections with each other."
+    },
+    {
+      "id": "OTS-10",
+      "skillName": "Heaps",
+      "description": "I know how to create a heap class and how to add items to heap and allow it to bubble up to its proper position. I also know how to allow items to sink down when the top priority is removed and the bottom right item is moved to the top. I know how to implement both max heaps and min heaps and how to use the latter structure to sort an array of data."
+    },
+    {
+      "id": "OTS-11",
+      "skillName": "jQuery",
+      "description": "I know how to write in jQuery langauge to create event listeners and manipulate the DOM."
+    },
+    {
+      "id": "OTS-12",
+      "skillName": "Maps and Hash Tables",
+      "description": "I understand how hashmaps work and am able to implement my own hash map and table using character codes."
+    },
+    {
+      "id": "OTS-13",
+      "skillName": "Tries",
+      "description": "Tries are a variation of the search tree data structure that retrieves data faster than a hash table and is most commonly used for autocorrect or predictive text. I know how to add words or strings to a trie, how to search for both prefixes for words or complete words, and how to delete words from a trie. Furthermore, by inputting a prefix, I am able to implement an autocomplete function that creates a list of words that contain that prefix."
+    }
+  ],
+  "softSkills": [
+    {
+      "id": "SS-1",
+      "skillName": "Communication",
+      "description": "I can report my work and findings to my peers and colleagues efficiently. I am also comfortable with helping others who need help and am not afraid to ask for help when needed."
+    },
+    {
+      "id": "SS-2",
+      "skillName": "Documentation",
+      "description": "I can take extensive notes on the code that I write both in-line or on a separate file. I write notes on the purpose of certain functions and the reason on why I wrote them the way I did."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "certifications": [
+    {
+      "id": "C-1",
+      "title": "University of South Florida Software Engineering Bootcamp",
+      "issuer": "Springboard",
+      "startDate": "September 2023",
+      "completionDate": "July 2024",
+      "description": "goes here",
+      "link": "https://www.credential.net/87cf4880-97c9-4573-8256-b5a634c41e1a#gs.fctswu",
+      "image": "./usfCertification.png"
+    }
+  ]
+}

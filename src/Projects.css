@@ -1,0 +1,7 @@
+.projects-list-box {
+  border: 2px solid;
+  border-color: rgb(1, 107, 29);
+  border-radius: 20px;
+  padding: 5px;
+  background-color: rgb(136, 226, 244, 0.8);
+}

@@ -1,0 +1,123 @@
+{
+  "fullStackProjects": [
+    {
+      "id": "FSP-1",
+      "projectName": "World Wide Garage Sale",
+      "startDate": "June 2024",
+      "completionDate": "July 2024",
+      "description": "An online marketplace app made with React, express.js, and postgreSQL where users can put items up for sale and buy other items for sale. Users' information is stored on SupaBase, a cloud based database similar to Oracle, which is send via a back-end server created with express.js. Users can message the sellers of items if they are interested, and once they agree on a price, the seller can mark the item as sold to that particular user. Furthermore, when a user has an item sold to them, the app uses SQL's ORDER BY query to reccomend other items of that particular type on the front page. The app will also reccomend items closer to the users' locations on the front page. Users can also be made admins, who can check reports made on users by other users and if they find the report to be valid, can block the reported user's account. If an admin reports a user, then only another admin can check their report or block the user.",
+      "gitHubLink": "https://github.com/TC999999/capstone_frontend"
+    },
+    {
+      "id": "FSP-2",
+      "projectName": "Twitter Clone",
+      "startDate": "January 2023",
+      "completionDate": "February 2024",
+      "description": "I fixed up and added features to a miniature blogging app made with python and flask. I added features that allowed users to make and edit accounts using postgreSQL and SQL queries. I also allowed users make and edit posts using one-to-many relationship tables. Finally, I added the ability to add tags to posts using and many-to-many relationship tables.",
+      "gitHubLink": " https://github.com/TC999999/Twitter_clone_project"
+    },
+    {
+      "id": "FSP-3",
+      "projectName": "Job Search Mini Project",
+      "startDate": "March 2024",
+      "completionDate": "April 2024",
+      "description": "A larger version of the Job Search API project seen in the back-end projects tab. This front-end connects to to back-end for a smooth and effective user experience. This version features a user interface where users can make accounts, edit their accounts, search for both companies and jobs, and apply for jobs. Users can also see which companies have the job they're looking for, or the list of jobs each company is offering. Furthermore, admin users can add jobs and companies, as well as remove them. When searching for jobs, the search engine uses SQL querying language to filter out certain jobs based on salary and equity.",
+      "gitHubLink": " https://github.com/TC999999/ReactJoblyFrontend"
+    }
+  ],
+  "frontEndProjects": [
+    {
+      "id": "FEP-1",
+      "projectName": "Dynamic Search Bar",
+      "startDate": "October 2023",
+      "completionDate": "November 2023",
+      "description": "From a list of results, this search bar narrows it down based on the string the user inputs into the bar. The search bar presents a dropdown list of possible results below itself whenever a string is inputted into it. When the user clicks on one of these possible results, the search bar automatically fills in whatever result was clicked. In the example provided, I used an array of fruit names inside of the js file.",
+      "image": "/fruitSearch.png",
+      "gitHubLink": "https://github.com/TC999999/Fruit-Search-Project"
+    },
+    {
+      "id": "FEP-2",
+      "projectName": "Hack-or-Snooze Front-End",
+      "startDate": "January 2024",
+      "completionDate": "February 2024",
+      "description": "In this project, I added features and fixed functions to the user interface portion of a mini Hacker News website. I allowed users to favorite stories they like, which updated the user's information on the back-end the stories to a cloud database and shown visually with a star next to their favorite stories using event listeners to change css selector classes. Furthermore, the user's favorite stories are shown in a separate page that can be accessed via a nav link. Also allowed users to add their own stories, which can also be shown in a separate page via a nav link. Finally, when a user deletes their own story, the link to the story also disappears from the main page as well as the page that shows their own stories. This also applies to stories that a user has both uploaded and favorited.",
+      "gitHubLink": "https://github.com/TC999999/Section1Project"
+    }
+  ],
+  "backEndProjects": [
+    {
+      "id": "BEP-1",
+      "projectName": "Job Search API",
+      "startDate": "March 2024",
+      "completionDate": "",
+      "description": "A sample API where regular users make create requests to apply for jobs using a one-to-many relationship table. Meanwhile admins can add new jobs, update jobs, and delete jobs. This project uses the jsonwebtoken library so that when a user logs in, the browser takes note of whether the user is an admin so they can make requests that regular users cannot. Furthermore, the jsonschema library is used so that any request follow a model expressed in a json file.",
+      "gitHubLink": "https://github.com/TC999999/jobly_project"
+    },
+    {
+      "id": "BEP-2",
+      "projectName": "Blogly App Backend",
+      "startDate": "December 2023",
+      "completionDate": "January 2024",
+      "description": "I fixed up and added features to a miniature blogging app made with python and flask. I added features that allowed users to make and edit accounts using postgreSQL and SQL queries. I also allowed users make and edit posts using one-to-many relationship tables. Finally, I added the ability to add tags to posts using and many-to-many relationship tables.",
+      "gitHubLink": "https://github.com/TC999999/BlogfyExercise"
+    }
+  ],
+  "otherProjects": [
+    {
+      "id": "OP-1",
+      "projectName": "PID Temperature Controller",
+      "startDate": "August 2022",
+      "completionDate": "April 2023",
+      "description": "I developed a PID temperature controller that was able to read the temperature of a cryostat submerged in liquid nitrogen. Not only did I develop the software that would change the temperature by sending pulse signals to the external hardware, but I also developed the software that would record the data that I was looking for. I recorded the amount of time each signal would stay on and what the current temperature was at every second and display them on a LabView graph. I am able to connect software with external hardware so that users could record external data with just the press of a button and automatically record them onto a database to use for later.",
+      "pdfLink": "./article.pdf"
+    },
+    {
+      "id": "OP-2",
+      "projectName": "Sorting Algorithms",
+      "startDate": "",
+      "completionDate": "",
+      "description": "My own solutions to several popular sorting algorithms. These algorithms include insertion sort, radix sort, selection sort, merge sort, and bubble sort. These alogorithms can be used to sort data based on a number such as how many users viewed a certain item or article to reccomend to other users.",
+      "gitHubLink": "https://github.com/TC999999/Array_Sorting_Examples"
+    },
+    {
+      "id": "OP-3",
+      "projectName": "Linked Lists",
+      "startDate": "",
+      "completionDate": "",
+      "description": "My own solutions to popular Linked List methods, which includes a function for if the list includes a value, at what index a value is at, how to add to the list, how to remove from the list, and how to reverse a linked list. This goes for both singly linked lists and doubly linked lists. Additionally, I know how to make both stacks and queues out of linked lists and how to add and remove data from each of them.",
+      "gitHubLink": "https://github.com/TC999999/data_structure_demo"
+    },
+    {
+      "id": "OP-4",
+      "projectName": "Binary Search Trees",
+      "startDate": "",
+      "completionDate": "",
+      "description": "My own implementation of a Binary Search Tree, which includes methods such as inserting a new value, removing a value, finding a value, searching a binary tree in depth-first search pre-order, in-order, and post-order, as well as breadth-first search. I also know how to find the maximum depth and the minimum depth of a tree.",
+      "gitHubLink": "https://github.com/TC999999/tree_classes"
+    },
+    {
+      "id": "OP-5",
+      "projectName": "Heaps",
+      "startDate": "",
+      "completionDate": "",
+      "description": "My own implementation of a Heap Priority Queue. This implementation includes basic methods such as adding a new object node or value to the end of the heap, bubbling up values at the end of a heap, removing the first value or node object from a heap with the greatest priority and replacing it with the last node in the heap, and sinking the topmost node down to its proper place. Further more, I have also implemented a min heap, which reverses a normal max heap where the lowest priority value is at the top of the heap.",
+      "gitHubLink": "https://github.com/TC999999/heap_classes"
+    },
+    {
+      "id": "OP-6",
+      "projectName": "Graphs",
+      "startDate": "",
+      "completionDate": "",
+      "description": "My own implementation of a Graph class. Graphs are used to show connections between two nodes; each node has an constructor property called 'adjacent', which is a set of other nodes it has a connection with. This graph has methods such as adding a new node to graph, adding an edge between two nodes, which adds both nodes to the other node's adjacent array, removing the edge between two nodes, and removing a node from the graph. Furthermore, I am able to search for nodes in the graph using both depth first search and breadth first search. I can also check to see if two nodes have a connection if they are on the graph using both depth first search and breadth first search. I am also able to find the shortest path of nodes between two nodes if they are both on the graph.",
+      "gitHubLink": "https://github.com/TC999999/graph_class"
+    },
+    {
+      "id": "OP-7",
+      "projectName": "Tries",
+      "startDate": "",
+      "completionDate": "",
+      "description": "My own implementation of a Trie class. Trie is short for 'retrieval', and is considered a more efficient way of storing and retrieving data strings because of how it branches off on prefixes for words that share the same prefix. They are primarily used for autocorrecting or predictive text on user inputs. This trie class includes methods such as inserting a string each letter at a time into the trie, searching for whether a word is included in the trie, removing a word from a trie and creating a list of complete words based on the inputted prefix string. Removing words is implemented by either marking that a word ends as false if the word itself is a prefix to another word, or removing all nodes of the word if no common prefix is found.",
+      "gitHubLink": "https://github.com/TC999999/trie_examples"
+    }
+  ]
+}

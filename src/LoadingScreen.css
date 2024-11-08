@@ -1,0 +1,54 @@
+#message_sending {
+  background-color: rgb(157, 154, 154);
+  padding: 30px;
+  border: 2px solid;
+  border-color: rgb(59, 35, 214);
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px black;
+}
+
+.loading-icon {
+  animation: rotation 1s infinite;
+  color: gold;
+}
+
+@keyframes rotation {
+  0% {
+    rotate: 0deg;
+  }
+  100% {
+    rotate: 180deg;
+  }
+}
+
+#ell-2 {
+  animation: ellipse2 1s infinite;
+}
+
+#ell-3 {
+  animation: ellipse3 1s infinite;
+}
+
+@keyframes ellipse2 {
+  from {
+    visibility: hidden;
+  }
+  33% {
+    visibility: hidden;
+  }
+  to {
+    visibility: visible;
+  }
+}
+
+@keyframes ellipse3 {
+  from {
+    visibility: hidden;
+  }
+  67% {
+    visibility: hidden;
+  }
+  to {
+    visibility: visible;
+  }
+}

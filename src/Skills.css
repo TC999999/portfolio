@@ -1,0 +1,18 @@
+.skill-list-box {
+  background-color: rgba(146, 190, 229, 0.5);
+  padding-top: 10px;
+  border: solid 2px black;
+  border-radius: 20px;
+}
+
+.tab-list {
+  border-bottom: solid 1px black;
+}
+
+.skillTab {
+  background-color: aliceblue;
+}
+
+.skillTab:hover {
+  color: rgb(15, 43, 228);
+}

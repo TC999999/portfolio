@@ -1,0 +1,11 @@
+#coverPhoto {
+  width: 100px;
+  height: 150px;
+}
+
+@media (min-width: 850px) {
+  #coverPhoto {
+    width: 200px;
+    height: 250px;
+  }
+}
