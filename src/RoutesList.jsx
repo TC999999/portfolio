@@ -6,6 +6,7 @@ import Projects from "./Projects";
 import Contact from "./Contact";
 import EmailForm from "./EmailForm";
 import Certifications from "./Certifications";
+import Education from "./Education";
 import Error from "./Error";
 
 const RoutesList = () => {
@@ -18,6 +19,7 @@ const RoutesList = () => {
       <Route path="/contact" exact element={<Contact />} />
       <Route path="/contact/sendmessage" exact element={<EmailForm />} />
       <Route path="/certifications" exact element={<Certifications />} />
+      <Route path="/education" exact element={<Education />} />
       <Route path="*" exact element={<Error />} />
     </Routes>
   );

@@ -19,12 +19,6 @@ const Projects = () => {
     setFrontEndProjects(projectList.frontEndProjects);
     setBackEndProjects(projectList.backEndProjects);
     setOtherProjects(projectList.otherProjects);
-    console.log(projectList.otherProjects);
-    console.log(
-      projectList.otherProjects.map((p) => {
-        return p.gitHubLink;
-      })
-    );
   }, []);
 
   const handleChange = (e, target) => {

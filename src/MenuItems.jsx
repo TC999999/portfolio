@@ -68,7 +68,6 @@ const MenuItems = () => {
         >
           Contact
         </MenuItem>
-
         <MenuItem
           color="inherit"
           component={Link}
@@ -76,6 +75,14 @@ const MenuItems = () => {
           onClick={handleClose}
         >
           Certifications
+        </MenuItem>
+        <MenuItem
+          color="inherit"
+          component={Link}
+          to="/education"
+          onClick={handleClose}
+        >
+          Education
         </MenuItem>
         <MenuItem color="inherit">Blog</MenuItem>
       </Menu>

@@ -2,7 +2,7 @@ import widthContext from "./widthContext.js";
 import { useState, useEffect } from "react";
 
 const WidthProvider = ({ children }) => {
-  const minScreenWidth = window.matchMedia("(max-width: 850px)");
+  const minScreenWidth = window.matchMedia("(max-width: 975px)");
   const [isWide, setIsWide] = useState(false);
 
   function mediaWatcher(minScreenWidth) {

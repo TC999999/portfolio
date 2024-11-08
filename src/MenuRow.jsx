@@ -19,6 +19,9 @@ const MenuRow = () => {
       <Button color="inherit" component={Link} to="/certifications">
         Certifications
       </Button>
+      <Button color="inherit" component={Link} to="/education">
+        Education
+      </Button>
       <Button color="inherit">Blog</Button>
     </Stack>
   );

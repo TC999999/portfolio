@@ -1,0 +1,14 @@
+.educationCard {
+  border: 5px solid;
+  border-color: green;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px black;
+  background-color: rgb(235, 231, 231);
+  padding: 10px;
+}
+
+.classBox {
+  background-color: rgba(0, 255, 0, 0.1);
+  padding: 10px;
+  border-radius: 20px;
+}
