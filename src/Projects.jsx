@@ -61,7 +61,8 @@ const Projects = () => {
                 startDate={project.startDate}
                 completionDate={project.completionDate}
                 description={project.description}
-                link={project.gitHubLink}
+                gitHubLink={project.gitHubLink}
+                note={project.note}
                 image={project.image ? project.image : "/unavailable.svg"}
               />
             </TabPanel>
@@ -73,7 +74,8 @@ const Projects = () => {
                 startDate={project.startDate}
                 completionDate={project.completionDate}
                 description={project.description}
-                link={project.gitHubLink}
+                gitHubLink={project.gitHubLink}
+                note={project.note}
                 image={project.image ? project.image : "/unavailable.svg"}
               />
             </TabPanel>
@@ -85,7 +87,7 @@ const Projects = () => {
                 startDate={project.startDate}
                 completionDate={project.completionDate}
                 description={project.description}
-                link={project.gitHubLink}
+                gitHubLink={project.gitHubLink}
                 image={project.image ? project.image : "/unavailable.svg"}
               />
             </TabPanel>
@@ -97,8 +99,8 @@ const Projects = () => {
                 startDate={project.startDate}
                 completionDate={project.completionDate}
                 description={project.description}
-                link={project.gitHubLink || project.pdfLink}
-                notGitHub={project.gitHubLink}
+                gitHubLink={project.gitHubLink}
+                pdfLink={project.pdfLink}
                 image={project.image ? project.image : "/unavailable.svg"}
               />
             </TabPanel>

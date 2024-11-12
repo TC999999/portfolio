@@ -7,6 +7,7 @@
       "endDate": "May 2023",
       "degree": "Bachelor's in Science",
       "major": "Physics",
+      "GPA": "3.8",
       "minor": "Mathematics",
       "description": "During my years at Stetson, I studied physics, where I learned about proper laboratory safety skills and developed my skills at presenting my results in front of my peers. I would also help my classmates whenever they needed help with their work, and return they helped me. Furthermore, I worked as a TA for an Intro to University Physics class in my senior year where I graded students' work and set up office hours for them to come and ask for help. I also took a couple of coding classes where I learned the basics of software development.",
       "transcript": "goes here",
@@ -17,28 +18,29 @@
           "name": "Intro to Computer Science",
           "startDate": "January 2021",
           "endDate": "May 2021",
-          "description": "goes here"
+          "description": "In this class, I learned the basics of Python and its uses in Data Science. I created a SIR (Susceptible-Infected-Recovery) graph using predictive modeling and data as well as made a mini neural network. "
         },
         {
           "id": "RC-2",
           "name": "Intro to Software Development",
           "startDate": "Jaunary 2023",
           "endDate": "May 2023",
-          "description": "goes here"
+          "description": "I learned the basics of C++ and its uses in software development. I made a program that was able to take data about car sales and specifications from a csv file and find the mean, median, and range of each 'column'. I was also able to make an Animal guessing game using a binary search tree."
         },
         {
           "id": "RC-3",
           "name": "Modern Physics",
           "startDate": "August 2020",
           "endDate": "December 2020",
-          "description": "goes here"
+          "description": "In one of our labs, I used Python to create a half-life simulator to determine the average half-life of Barium-137."
         },
         {
           "id": "RC-4",
           "name": "Senior Research Project",
           "startDate": "August 2022",
           "endDate": "May 2023",
-          "description": "goes here"
+          "description": "I made the software that would read the temperature of a cryostat submerged in liquid nitrogen, put it through a PID loop, and use the output to gradually increase or decrease the temperature to whatever I desired. The software also recorded and saved the data found onto my computer as a .txt file that would be used to make graphs. Furthermore, I presented my results once a week to my peers and colleagues and at the end of the year, presented my results in a public setting while briefly explaining by research.",
+          "link": "./PIDposter.jpg"
         }
       ]
     }

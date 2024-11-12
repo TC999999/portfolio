@@ -27,6 +27,7 @@ const Education = () => {
               major={e.major}
               minor={e.minor}
               description={e.description}
+              GPA={e.GPA}
               transcript={e.transcript}
               image={e.image ? e.image : "/unavailable.svg"}
               relevantClasses={e.relevantClasses}

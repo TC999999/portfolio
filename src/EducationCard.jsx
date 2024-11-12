@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import widthContext from "./widthContext";
-import { Box, Typography, Grid2, List, ListItem } from "@mui/material";
+import { Box, Typography, Grid2, List, ListItem, Link } from "@mui/material";
 import "./EducationCard.css";
 
 const EducationCard = ({
@@ -13,6 +13,7 @@ const EducationCard = ({
   image,
   description,
   transcript,
+  GPA,
   relevantClasses,
 }) => {
   const { isWide } = useContext(widthContext);
@@ -38,18 +39,32 @@ const EducationCard = ({
             >
               {university}
             </Typography>
-            <Typography variant="body2" fontStyle={"italic"}>
-              {degree}
-            </Typography>
-            <Typography variant="body2" fontStyle={"italic"}>
-              Major in {major}
-            </Typography>
-            <Typography variant="body2" fontStyle={"italic"}>
-              Minor in {minor}
-            </Typography>
-            <Typography variant="subititle2" fontStyle="italic">
-              {startDate} {endDate ? `- ${endDate}` : ""}
-            </Typography>
+            <Box>
+              <Typography variant="body1" fontStyle={"italic"}>
+                {degree}
+              </Typography>
+            </Box>
+            <Box>
+              <Typography variant="body1" fontStyle={"italic"}>
+                Major in {major}
+              </Typography>
+            </Box>
+            <Box>
+              <Typography variant="body1" fontStyle={"italic"}>
+                Minor in {minor}
+              </Typography>
+            </Box>
+            <Box>
+              <Typography variant="subititle2" fontStyle="italic">
+                {startDate} {endDate ? `- ${endDate}` : ""}
+              </Typography>
+            </Box>
+            <Box>
+              <Typography variant="subititle1" fontStyle="italic">
+                Average GPA: {GPA}
+              </Typography>
+            </Box>
+
             <Typography variant="body1">{description}</Typography>
             {/* <Link
               variant="body1"
@@ -73,6 +88,20 @@ const EducationCard = ({
                   <Typography variant="subititle2" fontStyle="italic">
                     {c.startDate}-{c.endDate}
                   </Typography>
+                  <Typography variant="body2">{c.description}</Typography>
+                  {c.link ? (
+                    <Link
+                      variant="body1"
+                      fontWeight="bold"
+                      target="_blank"
+                      rel="noopener"
+                      href={c.link}
+                    >
+                      See The Poster I Presented
+                    </Link>
+                  ) : (
+                    ""
+                  )}
                 </Box>
               </ListItem>
             );

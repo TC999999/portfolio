@@ -6,8 +6,9 @@ const ProjectCard = ({
   startDate,
   completionDate,
   description,
-  link,
-  notGitHub,
+  gitHubLink,
+  pdfLink,
+  note,
   image,
 }) => {
   return (
@@ -30,18 +31,31 @@ const ProjectCard = ({
               {startDate} {completionDate ? `- ${completionDate}` : ""}
             </Typography>
             <Typography variant="body1">{description}</Typography>
-            {link ? (
+            {gitHubLink ? (
               <Link
                 variant="body1"
                 fontWeight="bold"
                 target="_blank"
                 rel="noopener"
-                href={link}
+                href={gitHubLink}
               >
-                {!notGitHub
-                  ? "Read My Article about this Project"
-                  : "View This Project on GitHub!"}
+                View This Project on GitHub!
               </Link>
+            ) : (
+              <Link
+                variant="body1"
+                fontWeight="bold"
+                target="_blank"
+                rel="noopener"
+                href={pdfLink}
+              >
+                Read My Article on the Project!
+              </Link>
+            )}
+            {note ? (
+              <Typography variant="subtitle2" sx={{ color: "red" }}>
+                {note}
+              </Typography>
             ) : (
               ""
             )}

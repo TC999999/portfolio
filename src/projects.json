@@ -14,7 +14,7 @@
       "startDate": "January 2023",
       "completionDate": "February 2024",
       "description": "I fixed up and added features to a miniature blogging app made with python and flask. I added features that allowed users to make and edit accounts using postgreSQL and SQL queries. I also allowed users make and edit posts using one-to-many relationship tables. Finally, I added the ability to add tags to posts using and many-to-many relationship tables.",
-      "gitHubLink": " https://github.com/TC999999/Twitter_clone_project"
+      "gitHubLink": "https://github.com/TC999999/Twitter_clone_project"
     },
     {
       "id": "FSP-3",
@@ -22,7 +22,7 @@
       "startDate": "March 2024",
       "completionDate": "April 2024",
       "description": "A larger version of the Job Search API project seen in the back-end projects tab. This front-end connects to to back-end for a smooth and effective user experience. This version features a user interface where users can make accounts, edit their accounts, search for both companies and jobs, and apply for jobs. Users can also see which companies have the job they're looking for, or the list of jobs each company is offering. Furthermore, admin users can add jobs and companies, as well as remove them. When searching for jobs, the search engine uses SQL querying language to filter out certain jobs based on salary and equity.",
-      "gitHubLink": " https://github.com/TC999999/ReactJoblyFrontend"
+      "gitHubLink": "https://github.com/TC999999/ReactJoblyFrontend"
     }
   ],
   "frontEndProjects": [
@@ -41,6 +41,7 @@
       "startDate": "January 2024",
       "completionDate": "February 2024",
       "description": "In this project, I added features and fixed functions to the user interface portion of a mini Hacker News website. I allowed users to favorite stories they like, which updated the user's information on the back-end the stories to a cloud database and shown visually with a star next to their favorite stories using event listeners to change css selector classes. Furthermore, the user's favorite stories are shown in a separate page that can be accessed via a nav link. Also allowed users to add their own stories, which can also be shown in a separate page via a nav link. Finally, when a user deletes their own story, the link to the story also disappears from the main page as well as the page that shows their own stories. This also applies to stories that a user has both uploaded and favorited.",
+      "note": "(The project is marked as private. If you are interested in viewing this project, please contact me through any of the provided methods in the contact tab)",
       "gitHubLink": "https://github.com/TC999999/Section1Project"
     }
   ],
@@ -51,6 +52,7 @@
       "startDate": "March 2024",
       "completionDate": "",
       "description": "A sample API where regular users make create requests to apply for jobs using a one-to-many relationship table. Meanwhile admins can add new jobs, update jobs, and delete jobs. This project uses the jsonwebtoken library so that when a user logs in, the browser takes note of whether the user is an admin so they can make requests that regular users cannot. Furthermore, the jsonschema library is used so that any request follow a model expressed in a json file.",
+      "note": "(The project is marked as private. If you are interested in viewing this project, please contact me through any of the provided methods in the contact tab)",
       "gitHubLink": "https://github.com/TC999999/jobly_project"
     },
     {
