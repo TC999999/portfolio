@@ -8,7 +8,7 @@ const ProjectCard = ({
   description,
   gitHubLink,
   pdfLink,
-  note,
+  priv,
   image,
 }) => {
   return (
@@ -52,9 +52,11 @@ const ProjectCard = ({
                 Read My Article on the Project!
               </Link>
             )}
-            {note ? (
+            {priv ? (
               <Typography variant="subtitle2" sx={{ color: "red" }}>
-                {note}
+                This project is private on GitHub. If you are interested in
+                looking at this project, please contact me through the contact
+                tab.
               </Typography>
             ) : (
               ""

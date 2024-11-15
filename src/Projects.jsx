@@ -62,7 +62,7 @@ const Projects = () => {
                 completionDate={project.completionDate}
                 description={project.description}
                 gitHubLink={project.gitHubLink}
-                note={project.note}
+                priv={project.private}
                 image={project.image ? project.image : "/unavailable.svg"}
               />
             </TabPanel>
@@ -75,7 +75,7 @@ const Projects = () => {
                 completionDate={project.completionDate}
                 description={project.description}
                 gitHubLink={project.gitHubLink}
-                note={project.note}
+                priv={project.private}
                 image={project.image ? project.image : "/unavailable.svg"}
               />
             </TabPanel>
