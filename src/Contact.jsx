@@ -24,7 +24,7 @@ const Contact = () => {
         />
         <ContactLinkBox
           websiteName={"LinkedIn"}
-          link={"https://www.linkedin.com/in/tyler-clark-2b431a287/"}
+          link={"https://www.linkedin.com/in/twcjswe/"}
         />
         <ContactLinkBox
           websiteName={"GitHub"}

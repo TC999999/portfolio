@@ -1,6 +1,7 @@
 #coverPhoto {
   width: 100px;
-  height: 150px;
+  height: 500px;
+  border-radius: 50%;
 }
 
 @media (min-width: 850px) {

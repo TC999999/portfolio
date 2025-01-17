@@ -39,18 +39,20 @@ const About = () => {
           state relay, Arduino hardware, and C++. Furthermore, I recently put
           together a full stack online marketplace website using React.js,
           Express.js, and PostgreSQL. I am able to collect data not only from
-          the average user, but from other hardware as well to save and use.
+          the average user, but from other hardware as well to save and use. I
+          am open to and currenty learning new technologies in order to solve
+          both problems that I am facing and others are facing as well.
         </Typography>
-        <br />
+        {/* <br />
         <Typography variant="body1">
           At present, I am interetested in a junior software engineer/developer
-          role, with an emphasis in backend development. I am able to sort user
+          role, with an emphasis in frontend development. I am able to sort user
           information using SQL queries instead of sorting algorithms. This way,
           if a site reccomends a product or page to a user, the sorting is done
           before the information arrives at the frontend. For those who are
           interested, please feel free to connect with me or contact me with the
           provided contact details.
-        </Typography>
+        </Typography> */}
       </Box>
     </Container>
   );

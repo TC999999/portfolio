@@ -22,7 +22,7 @@ const MenuRow = () => {
       <Button color="inherit" component={Link} to="/education">
         Education
       </Button>
-      <Button color="inherit">Blog</Button>
+      {/* <Button color="inherit">Blog</Button> */}
     </Stack>
   );
 };

@@ -35,6 +35,11 @@
       "skillName": "Vite",
       "description": "I can build front-end apps with Vite that bundles React and Javascript together automatically. Makes building apps much more efficient and quick.",
       "icon": "/vite.svg"
+    },
+    {
+      "id": "FETS-7",
+      "skillName": "Redux",
+      "description": "I created an authentication system using redux that only dispatches and updates the user state when there's a login token in the browser."
     }
   ],
   "backEndTechnicalSkills": [
@@ -59,7 +64,7 @@
     {
       "id": "BETS-4",
       "skillName": "Flask",
-      "description": "I can create servers and connect to both local and cloud-based databases with Python and the psycopg2-binary library. I can create an API with Flask to create and retrieve data. I can also use SQLAlchemy to connect to a database and create a model for how information should be stored. I can also render HTML templates using Jinja and add user information to the front end.",
+      "description": "I can create servers and connect to both local and cloud-based databases with Python and the psycopg2-binary library. I can create an API with Flask to create and retrieve data. I can also use SQLAlchemy to connect to a database and create a model for how information should be stored. I can also perform SSR with HTML templates and Jinja.",
       "icon": "/flask.svg"
     },
     {

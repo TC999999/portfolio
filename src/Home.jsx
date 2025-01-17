@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import widthContext from "./widthContext";
 import { Container, Typography, Box, Grid2 } from "@mui/material";
-import coverPhoto from "/CoverPhoto.jpg";
+import coverPhoto from "/newCoverPhoto.jpg";
 import "./Home.css";
 
 const Home = () => {
@@ -51,7 +51,6 @@ const Home = () => {
           border: 2,
           borderColor: "cerulean",
           padding: 10,
-
           backgroundColor: "rgba(0,0,255,0.2)",
           borderRadius: 20,
         }}
@@ -61,7 +60,12 @@ const Home = () => {
             A Brief Introduction
           </Typography>
           <Typography variant={isWide ? "body1" : "body2"}>
-            Junior Software Engineer
+            I am a budding junior software developer who wants to and enjoys
+            creating efficient apps and technologies for users to enjoy and
+            experience while looking for a challenge. I am a fast learner who
+            enjoys figuring out solutions and learning new technologies to
+            difficult problems and is willing to help those in need while also
+            not afraid to ask for help as well.
           </Typography>
         </Box>
       </Box>

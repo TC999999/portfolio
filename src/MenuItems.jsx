@@ -84,7 +84,7 @@ const MenuItems = () => {
         >
           Education
         </MenuItem>
-        <MenuItem color="inherit">Blog</MenuItem>
+        {/* <MenuItem color="inherit">Blog</MenuItem> */}
       </Menu>
     </div>
   );
